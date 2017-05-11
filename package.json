@@ -1,0 +1,42 @@
+{
+  "name": "gleipnir-io",
+  "version": "0.0.1",
+  "description": "A fast and consistent persistent object storage",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha",
+    "jsdoc": "./node_modules/.bin/jsdoc -c jsdoc-conf.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f3lang/gleipnir-io.git"
+  },
+  "keywords": [
+    "object-storage",
+    "file",
+    "persistent",
+    "consistent",
+    "transactional",
+    "key-value"
+  ],
+  "author": {
+    "name": "Wolfgang Felbermeier",
+    "email": "wf@felbermeier.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.24.0",
+    "debug": "^2.6.0",
+    "filesize-parser": "^1.4.1",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.13.1",
+    "istanbul": "^0.4.5",
+    "jsdoc": "^3.4.3",
+    "mocha": "^3.2.0"
+  }
+}

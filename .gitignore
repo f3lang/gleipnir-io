@@ -1,3 +1,7 @@
+# IDEs
+.[iI]dea
+*.iml
+
 # Logs
 logs
 *.log
